@@ -1,5 +1,9 @@
 # evolve — Evolution Library
 
+- **GitHub:** [wldarden/evolve](https://github.com/wldarden/evolve)
+- **Dependencies:** None (standalone)
+- **Used by:** neuralnet, NeuroFlyer, AntSim, EcoSim
+
 Shared library providing genetic algorithms and NEAT neuroevolution. The NEAT subsystem is generic — templated over user-defined node properties.
 
 ## Two Evolution Systems
