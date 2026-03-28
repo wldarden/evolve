@@ -1,0 +1,4 @@
+add_executable(evolve_tests)
+target_sources(evolve_tests PRIVATE genome_test.cpp population_test.cpp innovation_test.cpp neat_operators_test.cpp neat_population_test.cpp structured_genome_test.cpp)
+target_link_libraries(evolve_tests PRIVATE evolve neuralnet GTest::gtest_main project_warnings)
+gtest_discover_tests(evolve_tests)
